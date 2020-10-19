@@ -1,0 +1,14 @@
+﻿.leftMenu a:hover {
+    color: #189eff;
+    text-decoration:none;
+}
+.leftMenu tbody *{
+    display: inline-block;
+    width:100%;
+}
+.leftMenu a{
+    transition: 0.4s all;
+    padding:6px 20px;
+    color: #929292;
+    text-decoration: none;
+}

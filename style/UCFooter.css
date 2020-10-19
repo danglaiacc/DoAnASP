@@ -1,0 +1,44 @@
+.footer{
+    padding-top: 20px;
+}
+
+.footer__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.footer li a {
+  color: #828282;
+  padding: 5px 0;
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: .4s all ease;
+  transition: .4s all ease;
+}
+
+.footer li a:hover {
+  color: #007bff;
+}
+
+.footer li a:before {
+  content: ">";
+  padding-right: 3px;
+  color: #828282;
+  display: inline-block;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer .tikicon2 {
+  margin-right: 10px;
+}

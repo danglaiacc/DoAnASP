@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/banner/topBanner1.png</ImageUrl>
+    <NavigateUrl>https://tiki.vn/chuong-trinh/mo-the-tikicard?src=topbar.b44592</NavigateUrl>
+    <AlternateText>Tiki</AlternateText>
+    <Impressions>100</Impressions>
+    <Keyword>Mở thẻ tikicard</Keyword>
+  </Ad>
+  
+  <Ad>
+    <ImageUrl>~/img/banner/topBanner3.png</ImageUrl>
+    <NavigateUrl>https://tiki.vn/chuong-trinh/hang-tot-gia-kho?src=topbar.b44901</NavigateUrl>
+    <AlternateText>Meerta Aademy</AlternateText>
+    <Impressions>100</Impressions>
+    <Keyword>Hàng tốt giá kho</Keyword>
+  </Ad>
+  
+  <Ad>
+    <ImageUrl>~/img/banner/topBanner2.jpg</ImageUrl>
+    <NavigateUrl>https://tiki.vn/chuong-trinh/hang-tot-gia-kho?src=topbar.b44901</NavigateUrl>
+    <AlternateText>Meerta Aademy</AlternateText>
+    <Impressions>100</Impressions>
+    <Keyword>Hàng tốt giá kho</Keyword>
+  </Ad>
+</Advertisements>
+

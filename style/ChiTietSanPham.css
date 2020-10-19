@@ -1,0 +1,156 @@
+﻿.leftMenu{
+    display: none;
+}
+a:hover{
+    text-decoration:none;
+}
+#trNoiDungChinh{
+    background-color: none;
+}
+.del-text {
+  text-decoration: line-through;
+}
+
+.dashed-border {
+  width: 100%;
+  border-top: 1px dashed #c7c7c7;
+  margin: 15px 0;
+  padding-top: 15px;
+}
+
+.icon-tick {
+  background-position: -108px -171px;
+  width: 20px;
+  height: 24px;
+}
+
+
+.sach__product-info__span {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+.sach__product-info__tieuDe {
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+}
+
+.sach__product-info__chiTiet {
+  color: #66645c;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.sach__product-info__sub-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sach__product-info__boc {
+  font-size: 12px;
+}
+
+.sach__product-info__vanChuyen {
+  font-size: 12px;
+}
+
+.sach__product-info__thanhToan {
+  position: relative;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dcdbdb;
+  border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 0 5px #e8e8e8;
+          box-shadow: 0 0 0 5px #e8e8e8;
+}
+
+.sach__product-info__thanhToan__tieuDe {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sach__product-info__thanhToan span {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.sach__product-info__thanhToan span span:after {
+  content: '₫';
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.sach__chiTiet__title {
+  border-bottom : 1px dashed #c7c7c7;
+  margin-bottom : 12px;
+  padding-bottom: 12px;
+}
+
+.sach__chiTiet__tacGia {
+  float             : right;
+  width             : 300px;
+  margin-left       : 30px;
+  border            : 1px solid #d1d3d4;
+  padding           : 20px;
+  border-radius     : 5px;
+  margin-bottom     : 18px;
+  background        : transparent;
+  -webkit-box-shadow: 0 5px 0 0 #d9d9d9;
+  box-shadow        : 0 5px 0 0 #d9d9d9;
+}
+
+.sach__chiTiet__tacGia ul {
+  margin-left  : -15px;
+  width        : 260px;
+  padding      : 0 20px;
+  font-size    : 12px;
+  list-style   : none;
+  margin-bottom: 0;
+}
+
+.sach__chiTiet__tacGia ul li {
+  margin-top: 8px;
+}
+
+.sach__chiTiet__tacGia ul a {
+  margin-top     : 20px;
+  height         : 15px;
+  background     : url("../images_Mau/2arrow.png") left 2px no-repeat;
+  background-size: auto;
+  background-size: 10px;
+  padding-left   : 15px;
+}
+
+.sach__chiTiet__tacGia__detail {
+  font-size  : 13px;
+  color      : #464646;
+  line-height: 20px;
+}
+
+.sach__chiTiet__tacGia__detail a {
+  font-size: 16px;
+}
+
+.sach__chiTiet .tacGia__img {
+  margin-left  : 10px;
+  border-radius: 3px;
+  border-width : 1px;
+  border-color : #d2d2d2;
+  border-style : solid;
+  width        : 95px;
+  max-height   : 95px;
+  float        : right;
+  overflow     : hidden;
+}

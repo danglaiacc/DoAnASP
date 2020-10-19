@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebUserControl_MasterPage" %>
+
+<%@ Register Src="UCHeader.ascx" TagName="UCHeader" TagPrefix="uc1" %>
+
+<%@ Register Src="UCFooter.ascx" TagName="UCFooter" TagPrefix="uc2" %>
+<%@ Register Src="~/WebUserControl/UCLeftMenu.ascx" TagPrefix="uc1" TagName="UCLeftMenu" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <%--<title>Title trong master page</title>--%>
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../vendor/boostrap4.5/bootstrap.min.css" rel="stylesheet" />
+    <link href="../style/UCHeader.css" rel="stylesheet" />
+    <link href="../style/UCLeftMenu.css" rel="stylesheet" />
+    <link href="../style/UCItemSach.css" rel="stylesheet" />
+    <link href="../style/UCFooter.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="css" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="w-100">
+                <tr>
+                    <td colspan="2">
+                        <uc1:UCHeader ID="UCHeader1" runat="server" />
+                    </td>
+                </tr>
+                <tr id="trNoiDungChinh">
+                    <td>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3 leftMenu pl-0">
+                                    <uc1:UCLeftMenu runat="server" ID="UCLeftMenu" />
+                                </div>
+                                <div class="col mt-1 tbl_master_noiDungChinh">
+                                    <asp:ContentPlaceHolder ID="NoiDungChinh" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+
+                        <uc2:UCFooter ID="UCFooter1" runat="server" />
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="../vendor/boostrap4.5/jquery-3.5.1.slim.js"></script>
+    <script src="../vendor/boostrap4.5/popper.min.js"></script>
+    <script src="../vendor/boostrap4.5/bootstrap.min.js"></script>
+</body>
+</html>
+
